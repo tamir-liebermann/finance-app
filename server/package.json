@@ -1,0 +1,21 @@
+{
+  "name": "finance-app",
+  "version": "1.0.0",
+  "description": "finance app",
+  "main": "src/index.ts",
+  "author": "tamir",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^20.9.4",
+    "typescript": "^5.3.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "build": "yarn && tsc",
+  "start": "tsc && node ./bin/index.js",
+  "dev": "ts-node ./src/index.ts"
+  }
+}
